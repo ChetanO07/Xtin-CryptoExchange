@@ -10,6 +10,17 @@
     />
     <meta name="theme-color" content="#111827" />
     <title>XtinTrade - Secure Crypto Escrow Marketplace</title>
+    <script>
+      (function () {
+        var onGitHubPages = location.hostname.endsWith('github.io');
+        var onProjectPath = location.pathname.indexOf('/Xtin-CryptoExchange') === 0;
+        var onDocsPath = location.pathname.indexOf('/Xtin-CryptoExchange/docs/') === 0;
+
+        if (onGitHubPages && onProjectPath && !onDocsPath) {
+          location.replace('/Xtin-CryptoExchange/docs/');
+        }
+      })();
+    </script>
   </head>
   <body>
     <div id="root"></div>
