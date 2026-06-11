@@ -3,7 +3,7 @@ services:
     name: xtin-trade
     env: static
     plan: free
-    repo: "REPLACE_WITH_GIT_REMOTE_URL"
+    repo: "https://github.com/ChetanO07/Xtin-CryptoExchange"
     branch: main
     buildCommand: "npm install && npm run build"
     staticPublishPath: "dist"
