@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: xtin-trade
+    env: static
+    plan: free
+    repo: "REPLACE_WITH_GIT_REMOTE_URL"
+    branch: main
+    buildCommand: "npm install && npm run build"
+    staticPublishPath: "dist"
